@@ -16,20 +16,18 @@
 #two{
     padding-right: 20px;
 }
-
-
 @media screen and (max-width: 1200px) {
-    
-   
-   #two{
-    
-        padding-right: 20%;
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
     }
-    #three{
-    
-        margin-right:80%;
-    }
+}
 
-   }
-   
-  
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+}
+
+
