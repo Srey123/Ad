@@ -1,7 +1,12 @@
 import React from "react";
 import Cards from "../Cards/Cards";
-import Table from "../Table/Table";
+
 import Profile from "../profile";
+import Shopping from "../shoppin"
+import Shop from "../shop2"
+import Im3 from "../shop3"
+
+
 
 
 import "./MainDash.css";
@@ -14,9 +19,21 @@ const MainDash = () => {
 
       </div>
       <br></br>
+     <div className="shop"> 
+      <Cards /> 
+      <div className="class">
+       
+    <div className="cla" id="ma"> <Shopping/></div> 
+    <div className="cla" id="mb">  <Shop/></div>
+    <div className="cla" id = "mc"> <Im3/></div>
+     
+      </div>
+   
+      </div>
+    
+    
+     
       
-      <Cards />
-      <div id="one"><Table /></div>
 
       
      

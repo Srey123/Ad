@@ -1,14 +1,12 @@
-.MainDash{
-    /* padding-top: 1rem; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+
 .Profile{
-    display:flex;
-    justify-content: space-around;
-    padding-left: 20px;
    
+   display: flex;
+   justify-content: space-between;
+   
+}
+.class{
+    width: 100px;
 }
 #one{
     padding-left: 15px;
@@ -16,19 +14,38 @@
 #two{
     padding-right: 20px;
 }
-@media screen and (max-width: 1200px) {
-    .MainDash{
-        justify-content:flex-start;
-        padding-left: 100px;
-        margin-top: 2rem;
-    }
+.shop{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+
+.class{
+    width: 500px;
+}
+.cla{
+   width: 300px;;
+    align-items: center;
+}
+#ma{
+    width: 100px;;
+    height:100%;
+    padding-right:2cm;
+   
 }
 
-@media screen and (max-width: 768px)
-{
-    .MainDash{
-        align-items: center;
-    }
+#mb{
+    width:10%;
+    height:1vh;
+    padding-left: 1cm;
+  
+}
+
+#mc{
+    width:10%;
+    height:100%;
+   
 }
 
 
+}
