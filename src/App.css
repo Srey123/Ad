@@ -47,8 +47,20 @@ flex-direction: row;
   .AppGlass{
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
+  }
+    .table2{
+ 
+      padding-right:250px;
+      
+     }
+     .tabl3{
+      padding-right:250px
+    
+     
+     
+    }
   } 
-}
+
 
 @media screen and (max-width: 768px) {
   .AppGlass{
